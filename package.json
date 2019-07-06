@@ -1,0 +1,14 @@
+{
+  "name": "learn-server",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "pm2 start index.js"
+  },
+  "main": "index.js",
+  "author": "DreamerKing",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "server": "^1.0.19"
+  }
+}
