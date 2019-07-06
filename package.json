@@ -2,7 +2,7 @@
   "name": "learn-server",
   "version": "1.0.0",
   "scripts": {
-    "start": "pm2 start index.js"
+    "start": "node index.js"
   },
   "main": "index.js",
   "author": "DreamerKing",
