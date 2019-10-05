@@ -18,7 +18,8 @@ const { modern} = server.utils;
     })
 ]); */
 
-server({ port: 3000, public: 'public', favicon: "public/logo.svg"},[
+server({ port: 3000, public: 'public', favicon: "public/logo.svg"}, [
+    ctx => header({ "Set-Cookie": ["name=King", "age=20"] }),
     get('/', ctx => "Hello Docker"),
     post('/', ctx => json(ctx.data)),
     get(ctx => status(404))
